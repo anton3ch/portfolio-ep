@@ -12,6 +12,21 @@ body {
   padding-top: 1rem;
 }
 
+a {
+  background: -webkit-linear-gradient(rgb(55, 0, 255), rgb(255, 0, 221));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(255, 0, 119);
+}
 /* Intro section */
 
 .jumbotron {
@@ -29,35 +44,32 @@ body {
   
 }
 
+/* My projects section */
 
-.card-img {
-  height: 16vw;
-  border: 2px dashed purple;
-  padding: 2px;
+@media only screen and (min-width: 800px) {
+
+  .card-img {
+    height: 16vw;
+    border: 2px dashed purple;
+    padding: 2px;
+  }
+}
+.card {
+  display: flex;
+  min-height: 555px;
+  position: relative;
 }
 
-.card {
-  min-height: 400px;
+.card-footer {
+  
+  position: absolute;
+  bottom: 0px;
+  width: 88%;
 }
 
 .card-text {
   padding-top: 10px;
 }
-
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover{
-  text-decoration: none;
-  color: blue;
-}
-
 
 /* Flickering animation */
 
@@ -75,7 +87,7 @@ a:hover{
   font-size: 20rem;
 }
 
-  /* Flickering animation */
+  /* animation */
 
 @-webkit-keyframes flash {
     
