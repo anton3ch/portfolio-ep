@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import 'animate.css';
 
 html {
+  padding-top: 1vw;
   background: rgb(16,175,161);
   background: radial-gradient(circle, rgba(16,175,161,1) 0%, rgba(23,9,121,1) 55%, rgba(255,0,80,1) 100%);
 
@@ -129,12 +131,11 @@ a:hover{
 
 .card-s {
   display: flex;
-  min-height: 50vw;
+  min-height: 55vw;
   position: relative;
 }
 
 .card-footer {
-  
   position: absolute;
   bottom: 0px;
   width: 88%;
@@ -144,6 +145,9 @@ a:hover{
   padding-top: 10px;
 }
 
+ol {
+  padding-bottom: 40px;
+}
 
 
 
@@ -161,53 +165,60 @@ a:hover{
   animation-direction: alternate-reverse;
 }
 
-.ci1 {
-  background: url(img/vacation.png");
-}
+
 
 
   /* animation */
 
-@-webkit-keyframes flash {
+  @-webkit-keyframes flash {
     
-  0% {
-    text-shadow: 2px 2px 18px rgb(4, 252, 83);
-    color: white;
-}
-  18% {
-    text-shadow: 2px 2px 18px rgb(4, 107, 252);
-    color: white;
+    0% {
+      text-shadow: 2px 2px 18px rgb(4, 252, 83);
+      color: white;
   }
-  20% {
-    text-shadow: none;
-    color: white;
+    18% {
+      text-shadow: 2px 2px 18px rgb(4, 107, 252);
+      color: white;
+    }
+    20% {
+      text-shadow: none;
+      color: white;
+    }
+    22% {
+      text-shadow: 2px 2px 18px rgb(252, 4, 231);
+      color: white;
+    }
+    24% {
+      text-shadow: none;
+      color: white;
+    }
+    25% {
+      text-shadow: 2px 2px 18px rgb(4, 252, 83);
+      color: white;
+    }
+    53% {
+      text-shadow: 2px 2px 18px rgb(4, 107, 252);
+      color: white;
+    }
+    55% {
+      text-shadow: none;
+      color: white;
+    }
+    57% {
+      text-shadow: 2px 2px 8px rgb(252, 4, 231);
+      color: white;
+    }
+    100% {
+      text-shadow: 2px 2px 8px rgb(4, 107, 252);
+      color: white;
+    }
+  } 
+
+
+  /* Animate */
+
+  :root {
+    --animate-duration: 3s;
+    --animate-delay: 0.9s;
+
   }
-  22% {
-    text-shadow: 2px 2px 18px rgb(252, 4, 231);
-    color: white;
-  }
-  24% {
-    text-shadow: none;
-    color: white;
-  }
-  25% {
-    text-shadow: 2px 2px 18px rgb(4, 252, 83);
-    color: white;
-  }
-  53% {
-    text-shadow: 2px 2px 18px rgb(4, 107, 252);
-    color: white;
-  }
-  55% {
-    text-shadow: none;
-    color: white;
-  }
-  57% {
-    text-shadow: 2px 2px 8px rgb(252, 4, 231);
-    color: white;
-  }
-  100% {
-    text-shadow: 2px 2px 8px rgb(4, 107, 252);
-    color: white;
-  }
-} 
