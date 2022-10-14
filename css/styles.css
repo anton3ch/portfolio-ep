@@ -122,14 +122,14 @@ a:hover{
 @media only screen and (min-width: 780px) {
 
   .card-img {
-    height: 16vw;
+    height: 18vw;
     border: 2px dashed purple;
     padding: 2px;
   }
 
 .card-s {
   display: flex;
-  min-height: 555px;
+  min-height: 50vw;
   position: relative;
 }
 
@@ -143,6 +143,9 @@ a:hover{
 .card-text {
   padding-top: 10px;
 }
+
+
+
 
 /* Flickering animation */
 
