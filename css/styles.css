@@ -7,7 +7,76 @@ html {
 }
 
 body {
+  background-color: rgb(132, 132, 132);
   font-family: 'Raleway', sans-serif;
 }
 
+.card-img {
+  /* width: 300px;
+  height: auto; */
+}
+
+.card-img {
+  height: 14vw;
+  border: 2px dashed purple;
+  padding: 2px;
+}
+
+.card {
+  min-height: 400px;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+
+/* Flickering animation */
+
+.intro {
+  animation: flicker 1.5s infinite alternate;
+  color: yellowgreen;
+
+  /* Flickering animation */
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px rgb(4, 107, 252),
+      0 0 11px rgb(4, 107, 252),
+      0 0 19px rgb(4, 107, 252),
+      0 0 40px rgb(4, 107, 252),
+      0 0 80px rgb(4, 107, 252),
+      0 0 90px rgb(4, 107, 252),
+      0 0 100px rgb(4, 107, 252),
+      0 0 150px rgb(4, 107, 252);
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
 
