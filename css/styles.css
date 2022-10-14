@@ -52,6 +52,8 @@ a:hover{
 
 .jumbotron {
   background-color: rgb(255, 255, 255);
+  display: flex;
+  padding-right: 0;
 }
 
 #intro h1 {
@@ -60,28 +62,44 @@ a:hover{
 }
 
 #intro h2 {
-  font-size: 5rem;
+  font-size: 4.9rem;
   
+}
+
+.mephotocontainer {
+  display: flex;
+  position: sticky;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 #mephoto {
   width: 19rem;
   display: block;
-  position: sticky;
-  float: right;
-  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 990px) {
+  #mephoto {
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #mephoto {
+    display: none;
+  }
 }
 
 /* My projects section */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 780px) {
 
   .card-img {
     height: 16vw;
     border: 2px dashed purple;
     padding: 2px;
   }
-}
+
 .card {
   display: flex;
   min-height: 555px;
@@ -94,7 +112,7 @@ a:hover{
   bottom: 0px;
   width: 88%;
 }
-
+}
 .card-text {
   padding-top: 10px;
 }
