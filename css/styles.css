@@ -12,6 +12,8 @@ body {
   padding-top: 1rem;
 }
 
+/* Anchors */
+
 a {
   background: -webkit-linear-gradient(rgb(55, 0, 255), rgb(255, 0, 221));
   -webkit-background-clip: text;
@@ -19,18 +21,36 @@ a {
   font-weight: 1000;
 }
 
-a:visited {
-  color: black;
+.card-footer a {
+  background: -webkit-linear-gradient(rgb(253, 98, 98), rgb(159, 139, 237));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+}
+
+#myname {
+  background: -webkit-linear-gradient(rgb(150, 101, 241), rgb(228, 146, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+}
+
+#myname:hover {
+  background: -webkit-linear-gradient(rgb(255, 29, 29), rgb(208, 69, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
 }
 
 a:hover{
   text-decoration: none;
   color: rgb(255, 0, 119);
+  -webkit-text-fill-color: red;
 }
+
 /* Intro section */
 
 .jumbotron {
-  
   background-color: rgb(255, 255, 255);
 }
 
@@ -42,6 +62,14 @@ a:hover{
 #intro h2 {
   font-size: 5rem;
   
+}
+
+#mephoto {
+  width: 19rem;
+  display: block;
+  position: sticky;
+  float: right;
+  padding-bottom: 2rem;
 }
 
 /* My projects section */
@@ -80,23 +108,22 @@ a:hover{
   animation-name: flash;
   -webkit-animation-duration: 5.5s;
   animation-duration: 5.5s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: alternate-reverse;
-  font-size: 20rem;
 }
+
 
   /* animation */
 
 @-webkit-keyframes flash {
     
   0% {
-    text-shadow: 2px 2px 8px rgb(4, 252, 83);
+    text-shadow: 2px 2px 18px rgb(4, 252, 83);
     color: white;
 }
   18% {
-    text-shadow: 2px 2px 8px rgb(4, 107, 252);
+    text-shadow: 2px 2px 18px rgb(4, 107, 252);
     color: white;
   }
   20% {
@@ -104,7 +131,7 @@ a:hover{
     color: white;
   }
   22% {
-    text-shadow: 2px 2px 8px rgb(252, 4, 231);
+    text-shadow: 2px 2px 18px rgb(252, 4, 231);
     color: white;
   }
   24% {
@@ -112,11 +139,11 @@ a:hover{
     color: white;
   }
   25% {
-    text-shadow: 2px 2px 8px rgb(4, 252, 83);
+    text-shadow: 2px 2px 18px rgb(4, 252, 83);
     color: white;
   }
   53% {
-    text-shadow: 2px 2px 8px rgb(4, 107, 252);
+    text-shadow: 2px 2px 18px rgb(4, 107, 252);
     color: white;
   }
   55% {
