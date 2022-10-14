@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
 html {
   background: rgb(16,175,161);
   background: radial-gradient(circle, rgba(16,175,161,1) 0%, rgba(23,9,121,1) 55%, rgba(255,0,80,1) 100%);
 
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
