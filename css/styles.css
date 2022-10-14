@@ -115,7 +115,7 @@ a:hover{
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 768px) {
   #mephoto {
     display: none;
   }
@@ -123,7 +123,7 @@ a:hover{
 
 /* My projects section */
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
 
   .card-img {
     height: 22vw;
@@ -151,9 +151,15 @@ a:hover{
 ol {
   padding-bottom: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .card-s {
+    min-height: 10vw;
+    height: 750px !important;
+  }
+}
 
 @media only screen and (min-width: 900px) {
-  .card {
+  .card-s {
     min-height: 10vw;
     height: 750px !important;
   }
@@ -168,9 +174,9 @@ ol {
   animation-name: flash;
   -webkit-animation-duration: 5.5s;
   animation-duration: 5.5s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  animation-direction: alternate-reverse;
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+  animation-direction: normal;
 }
 
 
