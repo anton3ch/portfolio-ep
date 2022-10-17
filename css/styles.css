@@ -165,6 +165,13 @@ ol {
   }
 }
 
+/* About me */
+.float {
+  display: block;
+  float: right;
+  width: 40px;
+}
+
 /* Flickering animation */
 
 .intro {
