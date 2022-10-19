@@ -83,7 +83,7 @@ a:hover{
 
 .jumbotron {
   background-color: rgb(255, 255, 255);
-  display: flex;
+  display: flex !important;
   padding-right: 0;
 }
 
