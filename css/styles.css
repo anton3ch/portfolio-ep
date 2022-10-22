@@ -14,6 +14,7 @@ body {
   background-color: rgb(223, 222, 222);
   font-family: 'Raleway', sans-serif;
   padding-top: 1rem;
+  border-radius: 10px;
 }
 
 /* Anchors */
@@ -166,6 +167,8 @@ ol {
 }
 
 /* About me */
+
+
 .float {
   display: block;
   float: right;
