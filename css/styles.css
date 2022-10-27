@@ -98,6 +98,10 @@ a:hover{
   
 }
 
+#intro2 {
+  font-size: 3.5rem !important;
+}
+
 .mephotocontainer {
   display: flex;
   position: sticky;
@@ -123,6 +127,10 @@ a:hover{
 }
 
 /* My projects section */
+
+.card-title {
+  font-size: 1.5rem;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -164,8 +172,13 @@ ol {
     min-height: 10vw;
     height: 750px !important;
   }
+  
 }
-
+@media only screen and (max-width: 900px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
 /* About me */
 
 
